@@ -236,8 +236,8 @@ function getSizes(base_url, size_id = null){
 }
 
 function calculateTotalPrice(){
-    let formattedNo = ($('#unit_value').val() && $('#unit_price').val()) ? (parseFloat($('#unit_value').val()) * parseFloat( removePointerInCurrence($('#unit_price').val())))  : 0;
-    $('#total_unit_price').val(formattedNo);
+    let formattedNo = ($('#unit_value').val() && $('#unit_price').val()) ? (parseFloat($('#unit_value').val()) * parseFloat( $('#unit_price').val()))  : 0;
+    $('#total_unit_price').val(thousands_separators(formattedNo));  
 }
 
 function thousands_separators(num) {
