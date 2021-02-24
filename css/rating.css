@@ -1,0 +1,39 @@
+input {
+    width: 100px;
+}
+
+a {
+    color: #4abfa5;
+}
+
+a:hover,
+a:active,
+a:focus {
+    color: #dab10d;
+}
+
+.rating-stars {
+    width: 100%;
+    text-align: center;
+}
+
+.rating-stars .rating-stars-container {
+    font-size: 0px;
+}
+
+.rating-stars .rating-stars-container .rating-star {
+    display: inline-block;
+    font-size: 25px;
+    color: #555555;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.rating-stars .rating-stars-container .rating-star.is--active,
+.rating-stars .rating-stars-container .rating-star.is--hover {
+    color: #4abfa5;
+}
+
+.rating-stars .rating-stars-container .rating-star.is--no-hover {
+    color: #555555;
+}

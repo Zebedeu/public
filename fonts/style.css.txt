@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'GTEestiDisplayRegular';
+  src: url('../fonts/GTEestiDisplayRegular.eot?#iefix') format('embedded-opentype'),  url('../fonts/GTEestiDisplayRegular.woff') format('woff'), url('../fonts/GTEestiDisplayRegular.ttf')  format('truetype'), url('../fonts/GTEestiDisplayRegular.svg#GTEestiDisplayRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'GTEestiDisplay-Medium';
+  src: url('..fonts/GTEestiDisplay-Medium.eot?#iefix') format('embedded-opentype'),  url('../fonts/GTEestiDisplay-Medium.woff') format('woff'), url('../fonts/GTEestiDisplay-Medium.ttf')  format('truetype'), url('../fonts/GTEestiDisplay-Medium.svg#GTEestiDisplay-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

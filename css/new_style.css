@@ -1,0 +1,607 @@
+h1{font-size:24px !important;
+    font-weight: 900!important;
+
+}
+h2{font-size: 22px !important;
+}
+h3{font-size: 18px !important;
+}
+h4{ font-size:16px !important;
+    font-family: 'GTEestiDisplayRegular' !important;
+}
+h5{ font-size: 14px !important;
+    font-family: 'GTEestiDisplayRegular' !important;
+}
+h6{ font-size: 14px !important;
+    font-family: 'GTEestiDisplayRegular' !important;
+}
+.address_ span {
+    font-size: 14px;
+    color: #000000;
+    float: none !important;
+}
+
+.product_card h5 {
+    color: #989898;
+}
+.product_card h3 {
+    color: #000;
+}
+.product_card h4 {
+    color: #989898;
+}
+.product_card p {
+    color: #989898;
+    font-size: 14px !important;
+    font-family: 'GTEestiDisplayRegular' !important;
+}
+.product_card2 p {
+    color: #989898;
+}
+.product_card h6{
+    color: #989898;
+}
+.col-md-12.data-section.mt40 h1 {
+    text-align: center;
+}
+.sell_Cat.Price_box li span {
+    color: #989898;
+}
+.my_oderDetails {
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 5px #d8d8d8;
+    width: 100%;
+    float: left;
+}
+.totals .totals-item {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 0px 20px;
+}
+.totals .totals-item label {
+    float: left;
+    clear: both;
+    width: auto;
+    text-align: right;
+}
+label {
+    font-weight: 500;
+}
+#lightSlider {
+    list-style: none outside none;
+    padding-left: 0;
+    margin-bottom:0;
+}
+#lightSlider li {
+    display: block;
+    float: left;
+    cursor:pointer;
+}
+#lightSlider img {
+    display: block;
+    height: auto;
+    width: 100%;
+    height: 420px;
+}
+.product_card h3 {
+    color: #000;
+    padding-top: 10px;
+}
+.col-md-12.col-sm-12.col-xs-12.details {
+    padding: 0;
+}
+.lSSlideOuter .lSPager.lSGallery li {
+    opacity: 0.5;
+}
+ 
+.lSSlideOuter .lSPager.lSGallery li.active {
+    opacity: 1;
+}
+ 
+.lSSlideOuter .lSPager.lSGallery li.active, .lSSlideOuter .lSPager.lSGallery li{
+  border-radius: 0;
+}
+ 
+.lSSlideOuter .lSPager.lSGallery li.active:hover, .lSSlideOuter .lSPager.lSGallery li:hover {
+  border-radius: 0;
+}
+ 
+.lSSlideOuter .lSPager.lSGallery img {
+    display: block;
+    height: 64px;
+    max-width: 100%;
+}
+
+h4.checkout-step-title a {
+    font-size: 20px;
+    color: #000;
+    text-transform: capitalize;
+    position: relative;
+        font-weight: 700;
+    top: 3px;
+}
+.text-block.address_ h4 {
+    color: #000;
+}
+.checkout-wrapper{padding-top: 40px; padding-bottom:40px; background-color: #fafbfa;}
+.checkout{    background-color: #fff;
+    border: 1px solid #eaefe9;
+    font-size: 14px;
+    width: 100%;
+    margin: 0px auto 0 auto !important;}
+.panel{margin-bottom: 0px;}
+.checkout-step {
+     
+    border-top: 1px solid #f2f2f2;
+    color: #666;
+    font-size: 14px;
+    padding: 10px 0;
+    position: relative;
+}
+
+.subtotal.cf.my_oderDetails.checkout_total {
+    padding: 0;
+}
+.checkout-step-number {
+    border-radius: 50%;
+    border: 1px solid #666;
+    display: inline-block;
+    font-size: 12px;
+    height: 32px;
+    margin-right: 10px;
+    padding: 6px;
+    text-align: center;
+    width: 32px;
+}
+.checkout-step-title{ font-size: 18px;
+    font-weight: 500;
+    vertical-align: middle;display: inline-block; margin: 0px;
+     }
+ 
+.checout-address-step{}
+.checout-address-step .form-group{margin-bottom: 18px;display: inline-block;
+    width: 100%;}
+
+.checkout-step-body{padding-left: 0px; padding-top: 30px;}
+
+.checkout-step-active{display: block;}
+.checkout-step-disabled{display: none;}
+.funkyradio-primary.mar10 {
+    display: inline-block;
+}
+.funkyradio a {
+    font-size: 16px;
+    color: #824d9f;
+    position: relative;
+    top: 9px;
+}
+.funkyradio {
+    padding: 5px 0 0;
+}
+.funkyradio .pull-right {
+    overflow: inherit;
+}
+div#accordion h4 {
+    font-size: 16px
+    letter-spacing: 0.05em;
+    padding: 15px 15px 10px 15px;
+    position: relative;
+    display: block;
+    margin-top: 0px;
+    color: #292929;
+    text-transform: uppercase;
+    border-bottom: 1px #eaeaea solid;
+    border-left: 4px #824d9f solid;
+    font-family: 'GTEestiDisplay-Medium';
+    margin: 0;
+}
+
+.product-text h3 {
+    margin: 0;
+    color: #000;
+}
+.product-text h4 {
+    color: #989898;
+}
+.panel.checkout-step h4 {
+    padding: 0 !important;
+    position: relative;
+    display: contents !important;
+    margin-top: 0px;
+    text-transform: none !important;
+    border-bottom: 0 !important;
+    border-left: none !important;
+    font-family: 'GTEestiDisplay-Medium';
+    color: #989898 !important;
+    margin: 0;
+}
+.panel.checkout-step h3 {
+    padding: 0 !important;
+    position: relative;
+        display: inherit !important;
+    margin-top: 0px;
+    color: #292929;
+    text-transform: none !important;
+    border-bottom: 0 !important;
+    border-left: none !important;
+    font-family: 'GTEestiDisplay-Medium';
+    margin: 0;
+}
+.payment_method {
+    padding-top: 20px;
+}
+.kp_myorder i {
+    padding: 0 !important;
+    position: relative !important;
+    color: #000042 !important;
+    font-size: 14px !important;
+    float: none !important;
+}
+.text-block {
+    padding: 10px 0;
+    text-transform: none;
+}
+.text-block.address_ h4 {
+    color: #000 !important;
+    font-weight: bold;
+}
+.product_card h5 span {
+    color: #000;
+}
+.product_card h3 {
+    margin: 0 !important;
+}
+.order-detail h3 {
+    text-transform: none !important;
+}
+
+.thumb {
+    width: 80px !important;
+    height: 80px !important;
+    margin: 0px 2px 20px;
+    border-radius: 5px;
+}
+p.pt10 {
+    padding-top: 10px;
+    margin: 0;
+}
+.qty-product-details {
+    float: left;
+    margin: 20px 7px 0 1px;
+}
+.qty {
+    height: 30px;
+    text-align: center;
+    width: 40px;
+    vertical-align: top;
+    color: #000;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: bold;
+}
+form.cart {
+    margin-top: 20px;
+}
+.custom.pull-left {
+    margin-top: 12px;
+}
+
+
+.css-tooltip {
+    width: auto;
+    height: 16px;
+    position: absolute;
+    right: 0;
+}
+.css-tooltip img {
+    width:40px;
+}
+.tp-icon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #0073e6;
+  background-color: #eee;
+  color: #0073e6;
+  border-radius: 50%;
+  text-align: center;
+  padding: 2px;
+  font-size: 16px;
+  line-height: 1;
+  font-style: normal;
+  cursor: help;
+}
+
+.css-tooltip .tooltiptext {
+    border-radius: 4px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.24);
+    background-color: #2a3138;
+    color: #eef1ff;
+    font-size: 14px;
+    line-height: 18px;
+    z-index: 4;
+    width: 150px;
+    padding: 8px;
+    right: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 40px;
+    text-align: center;
+}
+
+.tooltiptext.active {
+  visibility: visible;
+}
+
+@media only screen and (min-width: 768px) {
+  .css-tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+}
+@media only screen and (max-width: 667px) {
+#progressbar li:after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #989898;
+    position: absolute;
+    left: -42% !important;
+    top: 9px;
+    z-index: -1;
+}
+}
+
+.breadcrumb_card {
+    background-color: #ffffff;
+    border: 1px solid #e8e8e8;
+    border-radius: 2px;
+    margin: 30px 0px;
+}
+.breadcrumb {
+    background-color: #ffffff !important;
+    margin: 0 !important;
+}
+li.breadcrumb-item a {
+    color: black;
+}
+
+
+#msform {
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+#msform fieldset {
+    background: white;
+    border: 0 none;
+    border-radius: 3px;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+    text-align: left;
+}
+/*Hide all except first fieldset*/
+#msform fieldset:not(:first-of-type) {
+    display: none;
+}
+
+/*buttons*/
+#msform .action-button {
+    width: 100px;
+    background: #27AE60;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 1px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px;
+}
+#msform .action-button:hover, #msform .action-button:focus {
+    box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
+}
+/*headings*/
+.fs-title {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #2C3E50;
+    margin-bottom: 10px;
+}
+.fs-subtitle {
+    font-weight: normal;
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 20px;
+}
+/*progressbar*/
+#progressbar {
+    margin-bottom: 30px;
+    overflow: hidden;
+    /*CSS counters to number the steps*/
+    counter-reset: step;
+        padding-left: 1px;
+}
+#progressbar li {
+list-style-type: none;
+    color: #989898;
+    text-transform: uppercase;
+    font-size: 12px;
+    width: 33.33%;
+    float: left;
+    position: relative;
+    z-index: 1;
+}
+#progressbar li:before {
+content: counter(step);
+    counter-increment: step;
+    width: 20px;
+    line-height: 20px;
+    display: block;
+    font-size: 10px;
+    color: #fff;
+    background: #989898;
+    border-radius: 3px;
+    margin: 0 auto 5px auto;
+}
+/*progressbar connectors*/
+#progressbar li:after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #989898;
+    position: absolute;
+    left: -48%;
+    top: 9px;
+    z-index: -1; /*put it behind the numbers*/
+}
+#progressbar .active {
+    color: #4abfa5 !important;
+}
+#progressbar li:first-child:after {
+    /*connector not needed before the first step*/
+    content: none; 
+}
+/*marking active/completed steps green*/
+/*The number of the step and the connector before it = green*/
+#progressbar li.active:before,  #progressbar li.active:after{
+background: #4abfa5;
+    color: white;
+}
+
+
+.custom button.items-count {
+    transition: color 300ms ease-in-out 0s, background-color 300ms ease-in-out 0s, background-position 300ms ease-in-out 0s;
+    font-size: 9px;
+    line-height: 0px;
+    padding: 0px 0px 0px 0px;
+    height: 30px;
+    width: 30px;
+    background-color: #fff;
+    border: none;
+    color: #999;
+    border-radius: 999px;
+}
+
+
+
+.remove_cart {
+    position: relative;
+    left: 20px;
+    top: 5px;
+    color: #000;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+
+.cart_img2 img {
+    width: 139px;
+    float: left;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.param {
+    margin-bottom: 7px;
+    line-height: 1.4;
+}
+.param-inline dt {
+    display: inline-block;
+}
+.param dt {
+    margin: 0;
+    margin-right: 7px;
+    font-weight: 600;
+}
+.param-inline dd {
+    vertical-align: baseline;
+    display: inline-block;
+}
+
+.param dd {
+    margin: 0;
+    vertical-align: baseline;
+} 
+
+.shopping-cart-wrap .price {
+    color: #007bff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 5px;
+    display: block;
+}
+var {
+    font-style: normal;
+}
+
+.media img {
+    margin-right: 1rem;
+}
+.img-sm {
+    width: 90px;
+    max-height: 75px;
+    object-fit: cover;
+}
+
+.img-wrap {
+    float: left;
+    padding-right: 18px;
+}
+.card {
+    box-shadow: 0px 0px 5px #d8d8d8;
+}
+.totals .totals-item {
+    float: none;
+    clear: both;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.card .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 15px 15px !important;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+.totals .totals-item .totals-value {
+    float: right;
+    width: 35%;
+    text-align: right;
+    color: #f79824;
+}
+.fancybox-button svg:not(:root) {
+    overflow: hidden;
+    height: 20px;
+    position: relative;
+    top: 2px !important;
+    transition: all .4s ease-in-out;
+}
+.pro_title_ {
+    color: #4abfa5 !important;
+}
+.product-text {
+    padding: 20px 0;
+    text-transform: none;
+    text-align: left;
+}
+
+
+@media only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1090px)  {
+
+    /* Force table to not be like tables anymore */
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+    
+    /* Hide table headers (but not display: none;, for accessibility) */
+    thead tr { 
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+    
+    
+    

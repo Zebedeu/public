@@ -1,0 +1,28 @@
+.product_card2 p {
+    color: #989898;
+}
+.product_card h6{
+    color: #989898;
+}
+.col-md-12.data-section.mt40 h1 {
+    text-align: center;
+}
+.product-text h3 {
+    margin: 0;
+    color: #000;
+    font-weight: normal;
+}
+.product-text h4 {
+    color: #989898;
+    font-size: 16px;
+    margin: 5px 0;
+}
+.pro_title_ {
+    color: #4abfa5 !important;
+    font-size: 20px !important;
+}
+.product-text {
+    padding: 10px 10px;
+    text-transform: none;
+    text-align: left;
+}
