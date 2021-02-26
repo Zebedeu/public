@@ -24,6 +24,23 @@ function validateEmailAddress(text){
     }
 }
 
+function validateNif(text){
+    if(!checkBlank(text)){
+        let regNif = /^[0-9a-zA-Z]+/;
+
+        console.log(regNif.test(text))
+        if(!regNif.test(text)){
+            return 2;
+        } else {
+            return 0;
+        }
+    } else {
+        return 1;
+    }
+}
+
+// var outString = sourceString.replace(/[`~!@#$%^&*()_|+\-=?;:'",.<>\{\}\[\]\\\/]/gi, '');
+
 function validatePassword(text){
     if(!checkBlank(text)){
         let regPassword = /^(?=.*\d)(?=.*[!@#$%^&*])(?=.*[a-z])(?=.*[A-Z]).{8,}$/;
@@ -51,6 +68,17 @@ function validateConfirmPassword(password, confirm_password){
         }
     } else {
         return 1;
+    }
+}
+
+function validateBankAccountNo(bankAccountNo){
+    let first4Chars = bankAccountNo.substring(0, 4);
+    let lastChars = bankAccountNo.substring(4, bankAccountNo.length);
+    let pattern = /^\d*$/;
+    if(!bankAccountNo || bankAccountNo.length!= 25 || first4Chars!='AO06' || !pattern.test(lastChars)){
+        return 1;
+    } else {
+        return 0;
     }
 }
 

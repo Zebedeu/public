@@ -23,7 +23,7 @@
     border-bottom: 1px solid #ebebeb;
 }
 .wallet .active {
-    background-color: #814d9e;
+    background-color: #3cc0a6;
 }
 .wallet .active a{
     color: #fff;
@@ -40,7 +40,7 @@
     font-size: 35px;
 }
 .withdrwal_btn {
-    background-color: #7047b1;
+    background-color: #3cc0a6;
     color: #ffffff;
     padding: 8px 30px;
     border-radius: 5px;

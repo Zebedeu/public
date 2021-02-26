@@ -156,7 +156,29 @@ function getFarmers(base_url, producer_id = null){
     }
 
     $.ajax({url,  success: (result) => {
-        $('.producer_id').html(result.response);
+        console.log(result.response);
+        if(result.response != ""){
+            $('.producer_id').html(result.response);
+        }
+        else{
+            $.confirm({
+                title: 'Publicar Produto',
+                icon: 'fa fa-check',
+                content: 'Antes de adicionar algum produto precisa registar o produtor. Obrigado!',
+                type: 'purple',
+                typeAnimated: true,
+                buttons: {
+                    tryAgain: {
+                        text: 'Ok',
+                        btnClass: 'btn',
+                        action: function () {
+                            window.location.replace("/aggregators/user/add");
+                        }
+                    }
+                }
+            });
+        }
+           
     }});
 }
 
@@ -259,10 +281,18 @@ $(document).ready(function(){
     });
 
     $('.farmer_bank_account_no').on('keypress', (e) => {
-        if($('.farmer_bank_account_no').val().length > 30){
+        if($('.farmer_bank_account_no').val().length > 25){
             e.preventDefault();
         } else {
             $('.farmer_bank_account_no').val($('.farmer_bank_account_no').val().replace(/\W/gi, '').replace(/(.{4})/g, '$1 '));
+        }
+    });
+
+    $('.farmer_bank_account_no_edit').on('keypress', (e) => {
+        if($('.farmer_bank_account_no_edit').val().length > 30){
+            e.preventDefault();
+        } else {
+            $('.farmer_bank_account_no_edit').val($('.farmer_bank_account_no_edit').val().replace(/\W/gi, '').replace(/(.{4})/g, '$1 '));
         }
     });
 
@@ -276,8 +306,21 @@ $(document).ready(function(){
         $(this).val(function(index, value) {
           return value
             .replace(/\D/g, "")
-            .replace(/([0-9])([0-9]{2})$/, '$1,$2')  
             .replace(/\B(?=(\d{3})+(?!\d)\.?)/g, ".")
+          ;
+        });
+      });
+
+      $('input.farmer_nif_number').keyup(function(event) {
+        
+        // skip for arrow keys
+        if(event.which >= 37 && event.which <= 40){
+          event.preventDefault();
+        }
+      
+        $(this).val(function(index, value) {
+          return value
+            .replace(/[^A-Za-z0-9]+/g, "")
           ;
         });
       });
