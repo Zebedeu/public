@@ -329,4 +329,7 @@ $(document).ready(function(){
         'format': 'yyyy-mm-dd',
         'autoclose': true
     });
+
+    $(".js-accordion-item:eq(0)").addClass("active");
+
 });

@@ -109,7 +109,8 @@ table {
     width: 100%;
 }
 .wallet_history th {
-    background-color: whitesmoke;
+    background: #4abfa5;
+    color:#fff;
     padding: 10px;
 }
 .wallet_history td {
