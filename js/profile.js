@@ -75,6 +75,26 @@ function getUserStateCityInfo(base_url, type, dis_label, error_label, state_id, 
     }});
 }
 
+function getUserStateDocInfo(base_url, type, dis_label, error_label, state_id, city_id){
+    $('#err-profile-state-city-field').text('');
+    $('.profile_title').text(dis_label);
+    $('.profile_label').text(dis_label);
+    $('.profile_type').val(type);
+    $('.profile_type_error').val(error_label);
+
+    let url = "";
+    if(type == 'state'){
+        url = base_url+"get-states?state_id="+state_id;
+    } else {
+        url = base_url+"get_city?state_id="+state_id+"&city_id="+city_id;
+    }
+    
+    $.ajax({url,  success: function(result) {
+        $('.state_city_id').html(result.response)
+        $('#editUserDocInfoModal').modal('show');
+    }});
+}
+
 function getUserPasswordInfo(type, dis_label, password){
     $('.profile_title').text(dis_label);
     $('.profile_value_old_password').val($('.default_profile_password').val());

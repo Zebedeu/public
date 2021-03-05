@@ -84,7 +84,7 @@ h3 {
     font-size: 18px !important;
 }
 .product_card h4 {
-    color: #989898;
+    color: #555;
     margin: 5px 0;
 }
 h4 {
@@ -176,7 +176,7 @@ td {
 }
 #progressbar li {
     list-style-type: none;
-    color: #989898;
+    color: #555;
     text-transform: uppercase;
     font-size: 12px;
     width: 20%;
@@ -191,7 +191,7 @@ td {
     display: block;
     font-size: 10px;
     color: #fff;
-    background: #989898;
+    background: #555;
     height: 30px;
     width: 30px;
     padding-top: 5px;
@@ -203,7 +203,7 @@ td {
     content: '';
     width: 100%;
     height: 2px;
-    background: #989898;
+    background: #555;
     position: absolute;
     left: -43%;
     top: 14px;

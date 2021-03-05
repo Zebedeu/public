@@ -98,14 +98,14 @@ h4.stat_title {
 
 .products .white_bg{    
     background-color: #ffffff;
-    border: 1px solid #e8e8e8;
+    border: 1px solid #ddd;
        padding: 0px 10px;
     border-radius: 2px;
 }
 
 
 table {
-    background-color: transparent;
+    background: rgb(243, 239, 239);
     width: 100%;
 }
 .wallet_history th {
@@ -134,15 +134,15 @@ td.wallet_amount {
     left: 0px;
 }
 .lead {
-    font-size: 16px !important;
-    color: #9c9c9c;
+    font-size: 14px !important;
+    color: #555;
     text-transform: none;
     font-family: 'GTEestiDisplayRegular';
     margin: 0 !important;
 }
 .dash_title{
     color: #000;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
     letter-spacing: 2.1px;
     line-height: 25px;
@@ -253,6 +253,71 @@ canvas#myChart {
     padding: 0px 15px 0 0px !important;
 }
 
+
+.accordion-header-dash {
+    padding: 13px;
+    background: #4abfa5;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all .3s;
+    margin: 10px 0px 0;
+}
+
+.accordion-header-dash:hover {
+  background: #4abfa5;
+  position: relative;
+  z-index: 5;
+}
+
+
+.accordion__item.active:last-child .accordion-header-dash {
+    border-radius: none;
+  }
+  
+  .accordion:first-child > .accordion__item > .accordion-header-dash {
+    border-bottom: 1px solid transparent;
+  }
+  
+  .accordion__item > .accordion-header-dash:after {
+    content: "\f107";
+    font-family: "FontAwesome";
+    font-size: 1.2em;
+    float: right;
+    position: relative;
+    top: -10px;
+    transition: .3s all;
+    transform: rotate(0deg);
+  }
+  
+  .accordion__item.active > .accordion-header-dash:after {
+    transform: rotate(-180deg);
+  }
+  
+  .accordion__item.active .accordion-header-dash {
+    background: #4abfa5;
+  }
+  
+  .accordion__item .accordion__item .accordion-header-dash {
+    background: #f1f1f1;
+    color: black;
+  }
+  input.search_box {
+      padding: 8px 10px;
+      outline: none;
+      color: #000;
+      border: 1px solid #ddd;
+      width: 100%;
+      border-radius: 5px;
+      font-size: 16px;
+      margin: 10px 0px;
+  }
+  .accordion-header-dash.js-accordion-header img {
+      width: 21px;
+      margin-right: 10px;
+      position: relative;
+      bottom: 4px;
+  }
 @media only screen and (max-width: 800px) {
     .option {
         width: 100%;

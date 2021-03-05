@@ -22,30 +22,30 @@ h6{ font-size: 14px !important;
 }
 
 .product_card h5 {
-    color: #989898;
+    color: #555;
 }
 .product_card h3 {
     color: #000;
 }
 .product_card h4 {
-    color: #989898;
+    color: #555;
 }
 .product_card p {
-    color: #989898;
+    color: #555;
     font-size: 14px !important;
     font-family: 'GTEestiDisplayRegular' !important;
 }
 .product_card2 p {
-    color: #989898;
+    color: #555;
 }
 .product_card h6{
-    color: #989898;
+    color: #555;
 }
 .col-md-12.data-section.mt40 h1 {
     text-align: center;
 }
 .sell_Cat.Price_box li span {
-    color: #989898;
+    color: #555;
 }
 .my_oderDetails {
     margin-bottom: 20px;
@@ -201,7 +201,7 @@ div#accordion h4 {
     color: #000;
 }
 .product-text h4 {
-    color: #989898;
+    color: #555;
 }
 .panel.checkout-step h4 {
     padding: 0 !important;
@@ -212,7 +212,7 @@ div#accordion h4 {
     border-bottom: 0 !important;
     border-left: none !important;
     font-family: 'GTEestiDisplay-Medium';
-    color: #989898 !important;
+    color: #555 !important;
     margin: 0;
 }
 .panel.checkout-step h3 {
@@ -345,7 +345,7 @@ form.cart {
     content: '';
     width: 100%;
     height: 2px;
-    background: #989898;
+    background: #555;
     position: absolute;
     left: -42% !important;
     top: 9px;
@@ -426,7 +426,7 @@ li.breadcrumb-item a {
 }
 #progressbar li {
 list-style-type: none;
-    color: #989898;
+    color: #555;
     text-transform: uppercase;
     font-size: 12px;
     width: 33.33%;
@@ -442,7 +442,7 @@ content: counter(step);
     display: block;
     font-size: 10px;
     color: #fff;
-    background: #989898;
+    background: #555;
     border-radius: 3px;
     margin: 0 auto 5px auto;
 }
@@ -451,7 +451,7 @@ content: counter(step);
     content: '';
     width: 100%;
     height: 2px;
-    background: #989898;
+    background: #555;
     position: absolute;
     left: -48%;
     top: 9px;

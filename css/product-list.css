@@ -42,7 +42,7 @@ var {
 
 .img-wrap {
     float: left;
-    padding-right: 18px;
+    padding-right: 24px;
 }
 .card {
     box-shadow: 0px 0px 5px #d8d8d8;
@@ -84,7 +84,7 @@ h3 {
     font-size: 18px !important;
 }
 .product_card h4 {
-    color: #989898;
+    color: #555;
     margin: 5px 0;
 }
 h4 {
@@ -141,7 +141,7 @@ td {
     }
     .img-wrap {
         float: none;
-        padding-right: 18px;
+        padding-right: 24px;
     }
     
     

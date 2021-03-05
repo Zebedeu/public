@@ -197,7 +197,7 @@ main.posts-listing {
     margin-bottom: 1rem;
 }
 .post p:not(.lead) {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 24px;
     text-align: left;
     color: #555555;
@@ -425,7 +425,7 @@ h3.h4 {
     height: 40px;
 }
 .tbl-row-color{
-  background-color: whitesmoke;
+  background-color: #fff;
 }
 
 .post-comments .title::after, .post-comments .date::after, .post-comments .views::after {
@@ -469,7 +469,7 @@ h3.h4 {
     font-weight: bolder;
 }
 .oursolution li {
-    color: grey;
+    color: #555;
     padding: 10px 0px;
     font-size: 15px;
     font-family: 'GTEestiDisplayRegular';
@@ -644,7 +644,7 @@ a.google.btn {
     color: #555;
 }
 
-.terms-prg p{padding: 10px 0 10px 0; color: grey !important; font-family: 'GTEestiDisplayRegular';}
+.terms-prg p{padding: 10px 0 10px 0; color: #555 !important; font-family: 'GTEestiDisplayRegular';}
 .termsConditions-list{margin-top: 20px;list-style-type: decimal; margin-bottom: 1rem;}
 .termsConditions-list-title{ padding-left: 10px; margin-top: 10px; margin-bottom: 10px; list-style-type: decimal; font-size: 20px; font-family: 'GTEestiDisplayRegular';}
 .termsConditions-listAlpha{list-style-type: lower-alpha; font-size: 14px; color: #5a5956; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;}
@@ -1022,7 +1022,7 @@ section.features {
 }
 p.product-p {
     padding: 10px 0px 35px;
-    color: grey !important;
+    color: #555 !important;
 }
 
 #accordion p{
@@ -1111,7 +1111,7 @@ p.product-p {
   width: 80%;
 }
 .row.analytics p {
-    color: grey !important;
+    color: #555 !important;
     font-style: italic;
     font-family: 'GTEestiDisplayRegular';
 }
@@ -1876,7 +1876,7 @@ div#custom-search-input {
     border-top: 1px solid #dadada;
     font-size: 16px;
     text-align: left;
-    color: #ababab;
+    color: #555;
     font-family: 'GTEestiDisplayRegular';
 }
 .seller_detail li i {
@@ -3162,7 +3162,7 @@ input.search_box {
 label.my-1.mr-2 {
     font-family: 'GTEestiDisplayRegular';
     font-size: 14px;
-    color: grey;
+    color: #555;
     text-transform: none;
     font-weight: normal;
 }
@@ -3784,7 +3784,7 @@ a.sell_btn:hover {
 
 .chat_ib p {
     font-size: 12px;
-    color: #989898;
+    color: #555;
     margin: auto;
     display: inline-block;
     white-space: nowrap;
@@ -3981,7 +3981,7 @@ button.msg_send_btn img {
     color: #000;
 }
 .category2 span {
-    color: grey;
+    color: #555;
     font-size: 14px;
 }
 .category2 li a:hover {
@@ -4206,7 +4206,7 @@ a:focus {
     font-weight: normal;
 }
 .kp_location span {
-    color: #989898;
+    color: #555;
     margin: 0 10px;
     position: relative;
     font-size: 14px;
@@ -4451,7 +4451,7 @@ footer .data-section{padding: 0;}
     text-transform: none;
     font-weight: 600;
     font-size: 26px;
-}
+    }
 }
 @media screen and (max-width: 991px){
   .form-blank-part{height: 200px;background-position: center;}
@@ -4484,6 +4484,10 @@ li a, a, .column_order_table  {
     cursor: pointer;
 }
 
+.tippy-box[data-theme~='tomato'] {
+    background-color: #f69624;
+    color: #fff;
+  }
 
 @media screen and (max-width: 851px){
 .slider-text{width: 100%;}
@@ -4914,3 +4918,53 @@ h4.modal-title {
     font-family: 'GTEestiDisplay-Medium' !important;
 }
 
+.currency_color_text {
+    color: #555 !important;
+} 
+
+.product-number-text {
+    font-size: 14px;
+} 
+
+.wallet-account-balance-text {
+    background: #3cc0a6;
+    padding: 13px; 
+    margin: 10px 10px 0;
+    color: #fff;
+    font-size: 1.5em;
+    margin-bottom: 5%;
+    font-weight: 900;
+}
+
+.wallet-recent-trasantion {
+    background: #fff;
+    color: #252932; 
+    font-weight: 800;
+}
+.wallet-account-balance-line
+{
+    background-color: #555;
+    margin-bottom: 2%;
+}
+
+.cart-address-button{
+    padding-top: 14px;
+    font-size: 14px;
+    right: 18px;
+    top: -25px; 
+    float:right;
+    margin-right:00px;
+    background-color: #3cc0a6;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.cart-address-button:hover {
+    background-color: #038d80;
+}
+
+.list-product-m-item {
+    padding-top: 3px;
+} 

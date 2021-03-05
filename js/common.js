@@ -54,9 +54,8 @@ function generateReference(base_url, err_message, message, toast_message){
 
 
     var num = $("#load_amount").val()
-    floatResult = removePointerInCurrence(num)
 
-    $.ajax({url: base_url+"reference/generate?amount="+floatResult,  success: (result) => {
+    $.ajax({url: base_url+"reference/generate?amount="+num,  success: (result) => {
         $('#load_amount').val('');
         showAlert(toast_message, base_url, message);
         setTimeout(() => {
