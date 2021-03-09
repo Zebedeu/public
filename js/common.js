@@ -161,7 +161,7 @@ function getFarmers(base_url, producer_id = null){
         }
         else{
             $.confirm({
-                title: 'Publicar Produto',
+                title: 'Publicar produto',
                 icon: 'fa fa-check',
                 content: 'Antes de adicionar algum produto precisa registar o produtor. Obrigado!',
                 type: 'purple',
@@ -259,6 +259,20 @@ function getSizes(base_url, size_id = null){
 function calculateTotalPrice(){
     let formattedNo = ($('#unit_value').val() && $('#unit_price').val()) ? (parseFloat($('#unit_value').val()) * parseFloat( $('#unit_price').val()))  : 0;
     $('#total_unit_price').val(thousands_separators(formattedNo));  
+
+    let unit = parseFloat($('#unit_value').val()) 
+    if(300 > unit ){ 
+    $('.unit-error').text( "A quantidade mínima deve ser maior ou igual a 300 kg");
+    } else {
+        $('.unit-error').text( "");
+
+    } 
+
+
+    let ton = parseFloat($('#unit_value').val()) / 1000
+    $('#ton_result').val( thousands_separators(ton ?? 00 ));
+
+
 }
 
 function thousands_separators(num) {
@@ -295,6 +309,8 @@ $(document).ready(function(){
         }
     });
 
+    
+
     $('input.farmer_currency_number').keyup(function(event) {
         
         // skip for arrow keys
@@ -309,6 +325,8 @@ $(document).ready(function(){
           ;
         });
       });
+
+      
 
       $('input.farmer_nif_number').keyup(function(event) {
         
