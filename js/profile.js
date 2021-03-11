@@ -75,29 +75,13 @@ function getUserStateCityInfo(base_url, type, dis_label, error_label, state_id, 
     }});
 }
 
-//function getUserStateDocInfo(base_url, type, dis_label, error_label, state_id, city_id){
-function getUserStateDocInfo(base_url){
-    $('#err-profile-state-city-field').text('');
-    $('.profile_title').text('');
-   // $('.profile_title').text('dis_label');
-   // $('.profile_label').text('dis_label');
-    $('.profile_label').text('');
-    $('.profile_type').val('type');
-    $('.profile_type_error').val('error_label');
-
+function getUserStateDocInfo(base_url, type, dis_label, error_label, user_id){
+    $('#err-profile-state-doc-field').text('');
+    $('.profile_title').text(dis_label);
+    $('.profile_label').text(dis_label);
+    $('.profile_type').val(type);
+    $('.profile_type_error').val(error_label);
     $('#editUserDocInfoModal').modal('show');
-/*
-    let url = "";
-    if(type == 'state'){
-        url = base_url+"get-states?state_id="+state_id;
-    } else {
-        url = base_url+"get_city?state_id="+state_id+"&city_id="+city_id;
-    }
-    
-    $.ajax({url,  success: function(result) {
-        $('.state_city_id').html(result.response)
-        $('#editUserDocInfoModal').modal('show');
-    }});*/
 }
 
 function getUserPasswordInfo(type, dis_label, password){
@@ -153,40 +137,6 @@ function setUserPasswordInfo(url, title, old_password, new_password, confirm_new
             }
         }, 1000);
     })
-}
-
-function setUserStateDOCInfo(url, title){
-   
-    console.log('aqui - ' + url);
-   
-   /* let isError = 0;
-    if(!$('.state_city_id').val()){
-        isError = 1;
-        $('#err-profile-state-city-field').text($('.profile_type_error').val());
-    }
-
-    if(isError){
-        return false;
-    }
-
-    $('#editUserStateCityInfoModal').modal('hide');
-    let type = $('.profile_type').val();
-    let fieldType = (type == 'state') ? 'state_id' : 'city_id';
-    $.post( url+"update-profile", { type: fieldType, [fieldType]: $('.state_city_id').val() }).done(function( response ) {
-        if(response.code == 200){
-            if(type == 'state'){
-                $('.profile_state').text($(".state_city_id option:selected").text());
-            } else {
-                $('.profile_city').text($(".state_city_id option:selected").text());
-            }
-        }
-        
-        showAlert(response.message, url, title);
-        setTimeout(() => {
-            hideAlert()
-            location.reload();
-        }, 3000);
-    })*/
 }
 
 function setUserStateCityInfo(url, title){
