@@ -605,7 +605,7 @@ d="M335 661h-130v-779h130v-97h-242v974h242v-98z" />
 d="M10 -118h130v779h-130v98h242v-974h-242v97z" />
     <glyph glyph-name="asterisk" unicode="*" horiz-adv-x="421" 
 d="M267 522l82 -98l-71 -52l-67 108l-69 -109l-70 53l82 98l-124 31l27 82l119 -48l-9 128h87l-9 -127l119 47l27 -82z" />
-    <glyph glyph-name="dagger" unicode="&#x2020;" horiz-adv-x="524" 
+    <glyph glyph-name="dagger" unicode="&#x;" horiz-adv-x="524" 
 d="M474 384h-160v-477h-104v477h-160v96h160v220h104v-220h160v-96z" />
     <glyph glyph-name="asciitilde" unicode="~" 
 d="M257.5 381q27.5 -9 60.5 -25q28 -13 48 -20t43 -7q33 0 57 13t60 42l53 -84q-46 -38 -87.5 -56.5t-86.5 -18.5q-33 0 -59 8t-58 24q-31 14 -51 21t-45 7q-34 0 -57.5 -13t-60.5 -43l-53 84q47 39 88.5 58t86.5 19q34 0 61.5 -9z" />

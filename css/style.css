@@ -9,7 +9,9 @@
 
 @font-face {
   font-family: 'GTEestiDisplay-Medium';
-  src: url('../fonts/GTEestiDisplay-Medium.eot?#iefix') format('embedded-opentype'),  url('../fonts/GTEestiDisplay-Medium.woff') format('woff'), url('../fonts/GTEestiDisplay-Medium.ttf')  format('truetype'), url('../fonts/GTEestiDisplay-Medium.svg#GTEestiDisplay-Medium') format('svg');
+  /* src: url('../fonts/GTEestiDisplay-Medium.eot?#iefix') format('embedded-opentype'),  url('../fonts/GTEestiDisplay-Medium.woff') format('woff'), url('../fonts/GTEestiDisplay-Medium.ttf')  format('truetype'), url('../fonts/GTEestiDisplay-Medium.svg#GTEestiDisplay-Medium') format('svg'); */
+  src: url('../fonts/GTEestiDisplayRegular.eot?#iefix') format('embedded-opentype'),  url('../fonts/GTEestiDisplayRegular.woff') format('woff'), url('../fonts/GTEestiDisplayRegular.ttf')  format('truetype'), url('../fonts/GTEestiDisplayRegular.svg#GTEestiDisplayRegular') format('svg');
+
   font-weight: 700;
   font-style: normal;
   font-display: block;
@@ -4927,6 +4929,7 @@ h4.modal-title {
 
 .product-number-text {
     font-size: 14px;
+    padding: 1%;
 } 
 
 .wallet-account-balance-text {
@@ -4968,6 +4971,24 @@ h4.modal-title {
     background-color: #038d80;
 }
 
+.product-address-button{
+    padding-top: 10px;
+    font-size: 14px;
+    right: 18px;
+    top: -25px; 
+    float:left;
+    margin-left:00px;
+    background-color: #3cc0a6;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.product-address-button:hover {
+    background-color: #038d80;
+}
+
 .list-product-m-item {
     padding-top: 3px;
 } 
@@ -4975,6 +4996,26 @@ h4.modal-title {
 .wallet-currency-add-color {
     color: #3cc0a6;
 } 
+.jconfirm .jconfirm-box.jconfirm-type-kepya {
+    border-top: solid 7px #3cc0a6;
+    -webkit-animation-name: type-kepya;
+    animation-name: type-kepya;
+}
+.jconfirm.jconfirm-kepya .jconfirm-icon-c{
+    background: #3cc0a6;
+
+}
+
+.kepya-green{
+    background: #3cc0a6;
+    color: #FFFFFF;
+
+}
+.kepya-green:hover{
+    background: #038d80;
+    color: #FFFFFF !important;
+} 
+
 #loading {
     background: #f4f4f2 url("img/page-bg.png") repeat scroll 0 0;
     height: 100%;

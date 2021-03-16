@@ -164,12 +164,12 @@ function getFarmers(base_url, producer_id = null){
                 title: 'Publicar Produto',
                 icon: 'fa fa-check',
                 content: 'Antes de adicionar algum produto precisa registar o produtor. Obrigado!',
-                type: 'purple',
+                type: 'kepya',
                 typeAnimated: true,
                 buttons: {
                     tryAgain: {
                         text: 'Ok',
-                        btnClass: 'btn',
+                        btnClass: 'kepya-green',
                         action: function () {
                             window.location.replace("/aggregators/user/add");
                         }
@@ -348,3 +348,4 @@ $(document).ready(function(){
     $(".js-accordion-item:eq(0)").addClass("active");
 
 });
+

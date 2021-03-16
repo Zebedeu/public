@@ -84,6 +84,16 @@ function getUserStateDocInfo(base_url, type, dis_label, error_label, user_id){
     $('#editUserDocInfoModal').modal('show');
 }
 
+
+function callModalReceipt(){
+    $('#err-profile-state-doc-field').text('');
+    $('.profile_title').text('dis_label');
+    $('.profile_label').text('dis_label');
+    $('.profile_type').val('type');
+    $('.profile_type_error').val('error_label');
+    $('#editUserDocInfoModal').modal('show');
+}
+
 function getUserPasswordInfo(type, dis_label, password){
     $('.profile_title').text(dis_label);
     $('.profile_value_old_password').val($('.default_profile_password').val());
