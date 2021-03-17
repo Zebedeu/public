@@ -3162,7 +3162,7 @@ input.search_box {
     letter-spacing: 1.1px;
     line-height: 30px;
     text-align: left;
-    text-transform: capitalize;
+
 }
 label.my-1.mr-2 {
     font-family: 'GTEestiDisplayRegular';
@@ -5009,6 +5009,9 @@ h4.modal-title {
 .kepya-green{
     background: #3cc0a6;
     color: #FFFFFF;
+    text-transform: capitalize !important;
+
+
 
 }
 .kepya-green:hover{
