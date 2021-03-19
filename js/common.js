@@ -185,6 +185,7 @@ function getFarmers(base_url, producer_id = null) {
                             window.location.replace("/aggregators/user/add");
                         }
                     }
+                } 
                 });
             }
 
@@ -371,3 +372,4 @@ $(document).ready(function () {
     $(".js-accordion-item:eq(0)").addClass("active");
 
 });
+
