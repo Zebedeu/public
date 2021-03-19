@@ -58,36 +58,13 @@ function generateReference(base_url, err_message, message, toast_message) {
     $.ajax({
         url: base_url + "reference/generate?amount=" + num, success: (result) => {
             $('#load_amount').val('');
-            notificacao(num, result);
-            /*showAlert(toast_message, base_url, message);
+            showAlert(toast_message, base_url, message);
             setTimeout(() => {
                 hideAlert()
-            }, 3000);*/
+            }, 3000);
         }
     });
 }
-
-
-function notificacao(value, reference) {
-    $.confirm({
-        title: '',
-        content: '<p style="font-size:16px;"> Para que o seu carregamento fique validado, deve fazer na próximas 24h o pagamento com os seguintes dados: <br></p>' +
-                 '<p style="margin-bottom:1px; margin-left: 20px; font-size:14px;"><b>Entidade:</b> 00229</p>' +
-                 '<p style="margin-bottom:1px; margin-left: 20px;font-size:14px; font-weight:bold">Referência: ' + reference + '</p>' +
-                 '<p style="margin-bottom:0px; margin-left: 20px;font-size:14px; font-weight:bold">Valor: ' + value + ' Kz</p>',
-        type: 'kepya',
-        typeAnimated: true,
-        buttons: {
-            tryAgain: {
-                text: 'Ok',
-                btnClass: 'kepya-green',
-                action: function () {
-                }
-            }
-        }
-    });
-}
-
 
 function removePointerInCurrence(number) {
     let regex = /([+-]?[0-9|^.|^,]+)[\.|,]([0-9]+)$/igm
@@ -208,8 +185,6 @@ function getFarmers(base_url, producer_id = null) {
                             window.location.replace("/aggregators/user/add");
                         }
                     }
-                }
-                 
                 });
             }
 
@@ -396,4 +371,3 @@ $(document).ready(function () {
     $(".js-accordion-item:eq(0)").addClass("active");
 
 });
-

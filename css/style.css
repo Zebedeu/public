@@ -5019,6 +5019,16 @@ h4.modal-title {
     color: #FFFFFF !important;
 } 
 
+
+a.facebook.btn {
+    background-color: #fff;
+    border: 2px solid #c5c5c5;
+    color: #333;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0px;
+    font-size: 16px;
+}
 #loading {
     background: #f4f4f2 url("img/page-bg.png") repeat scroll 0 0;
     height: 100%;
