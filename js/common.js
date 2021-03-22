@@ -172,7 +172,7 @@ function getFarmers(base_url, producer_id = null) {
         }
         else{
             $.confirm({
-                title: 'Publicar produto',
+                title: 'Produtor em falta',
                 icon: 'fa fa-check',
                 content: 'Antes de adicionar algum produto precisa registar o produtor. Obrigado!',
                 type: 'kepya',
