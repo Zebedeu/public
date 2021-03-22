@@ -366,10 +366,13 @@ $(document).ready(function () {
 
     $('.date-picker').datepicker({
         'format': 'yyyy-mm-dd',
-        'autoclose': true
+        "setDate": new Date(),
+        'autoclose': true,
+        language: 'pt'
+
+        
     });
 
     $(".js-accordion-item:eq(0)").addClass("active");
 
 });
-
