@@ -129,7 +129,7 @@ function getCities(base_url, city_id = null, state_id = null) {
             }
         });
     } else {
-        $('.city_id').htdml("")
+        $('.city_id').html("")
     }
 }
 

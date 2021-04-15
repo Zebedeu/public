@@ -498,13 +498,15 @@ h3.h4 {
 
 .login-section{width: 100%;float: left;}
 .login-section .overlay-position{
-    position: fixed;
+    position: absolute;
     left: 0;
     width: 100%;
     height: 100%;
     background-color: transparent;
 }
-
+#Div2 {
+    display: none;
+  }
 .login-page{
     width: 100%;
     float: left;
@@ -4021,6 +4023,11 @@ button.msg_send_btn img {
     top: 0;
     left: 0;
 }
+
+.notification_ico{
+    width: 25px;
+    padding: 0;
+}
 .cart_ico{
     width: 25px;
     padding-top: 2px;
@@ -4398,6 +4405,15 @@ input.custom_input.from_input {
   display: none;
 }
 
+.share-btn > a {
+    border: 1px solid #ccc;
+    padding: 5px;
+    font-size: 12px;
+    font-family: Verdana, Arial;
+}
+.share-btn > a:hover {
+    cursor: pointer;
+}
 @media screen and (max-width: 1460px){
 .slider-text p {
     color: #f19625;
@@ -5029,6 +5045,17 @@ a.facebook.btn {
     margin: 10px 0px;
     font-size: 16px;
 }
+
+.box_login {
+    width: 350px;
+<<<<<<< HEAD
+    height: 500px;
+=======
+    height: 500;
+    position: relative;
+>>>>>>> 291dc13c3b2599c12e1a5374184a7df74354970f
+} 
+
 #loading {
     background: #f4f4f2 url("img/page-bg.png") repeat scroll 0 0;
     height: 100%;
@@ -5127,6 +5154,4 @@ a.facebook.btn {
 100% {
     transform: rotate(360deg);
 }
-}
-
 }

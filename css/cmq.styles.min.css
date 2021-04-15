@@ -468,7 +468,7 @@ li.call {
     transform: translate(0, 0);
     transition: all 0.5s;
     transition-timing-function: cubic-bezier(0.62, 0.04, 0.82, 0.13);
-    width: 260px;
+    width: 280px;
     top: 0;
     box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, 0.1);
     min-height: 100% !important;

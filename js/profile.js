@@ -30,8 +30,10 @@ function getUserInfo(type, dis_label, error_label){
     } else if(type == 'bank_name'){
         $('.profile_title').text(dis_label);
         $('.profile_label').text(dis_label);
+        $(".profile_value").addClass("demo");
         $('.profile_value').val($('.profile_bank_name').text());
         $(".profile_value").prop("type", "text");
+        $(".demo input").remove();
     } else if(type == 'bank_account_no'){
         $('.profile_title').text(dis_label);
         $('.profile_label').text(dis_label);
@@ -84,6 +86,13 @@ function getUserStateDocInfo(base_url, type, dis_label, error_label, user_id){
     $('#editUserDocInfoModal').modal('show');
 }
 
+function getUserStateBank_Name_Info(base_url, type, dis_label, error_label, user_id){
+    $('.profile_title').text(dis_label);
+    $('.profile_label').text(dis_label);
+    $('.profile_value').val($('.profile_bank_name').text());
+    $('.profile_type_error').val(error_label);
+    $('#editUserBank_Name_InfoModal').modal('show');
+}
 
 function callModalReceipt(){
     $('#err-profile-state-doc-field').text('');
@@ -238,4 +247,16 @@ $(document).ready(function(){
             }
         }
     });
+
+    var x = document.createElement("SELECT");
+    x.setAttribute("id", "mySelect");
+    document.body.appendChild(x);
+
+    var z = document.createElement("option");
+    z.setAttribute("value", "volvocar");
+    var t = document.createTextNode("Volvo");
+    z.appendChild(t);
+    document.getElementById("mySelect").appendChild(z);
+
+
 });
