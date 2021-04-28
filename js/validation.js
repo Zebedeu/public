@@ -24,6 +24,21 @@ function validateEmailAddress(text){
     }
 }
 
+function validateEmailAndPhoneAddress(text){
+    if(!checkBlank(text)){
+        let regEmail = /\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*/;
+
+        if(regEmail.test(text) == true || text == parseInt(text, 10)){
+            return 0;
+        } else  {
+            return 4;
+        }
+    } else {
+        return 1;
+    }
+}
+
+
 function validateNif(text){
     if(!checkBlank(text)){
         let regNif = /^[0-9a-zA-Z]+/;
