@@ -1,0 +1,148 @@
+.param {
+    margin-bottom: 7px;
+    line-height: 1.4;
+}
+.param-inline dt {
+    display: inline-block;
+}
+.param dt {
+    margin: 0;
+    margin-right: 7px;
+    font-weight: 600;
+}
+.param-inline dd {
+    vertical-align: baseline;
+    display: inline-block;
+}
+
+.param dd {
+    margin: 0;
+    vertical-align: baseline;
+} 
+
+.shopping-cart-wrap .price {
+    color: #007bff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 5px;
+    display: block;
+}
+var {
+    font-style: normal;
+}
+
+.media img {
+    margin-right: 1rem;
+}
+.img-sm {
+    width: 90px;
+    max-height: 75px;
+    object-fit: cover;
+}
+
+.img-wrap {
+    float: left;
+    padding-right: 24px;
+}
+.card {
+    box-shadow: 0px 0px 5px #d8d8d8;
+}
+.totals .totals-item {
+    float: none;
+    clear: both;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.card .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 15px 5px !important;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+.totals .totals-item .totals-value {
+    float: right;
+    width: 35%;
+    text-align: right;
+    color: #f79824;
+}
+
+.pro_title_ {
+    color: #4abfa5 !important;
+}
+.product-text {
+    padding: 20px 0;
+    text-transform: none;
+    text-align: left;
+}
+.product_card h3 {
+    margin: 0 !important;
+}
+.product_card h3 {
+    color: #000;
+}
+h3 {
+    font-size: 18px !important;
+}
+.product_card h4 {
+    color: #555;
+    margin: 5px 0;
+}
+h4 {
+    font-size: 16px !important;
+    font-family: 'GTEestiDisplayRegular' !important;
+}
+.kp_myorder i {
+    padding: 0 !important;
+    position: relative !important;
+    color: #000042 !important;
+    font-size: 14px !important;
+    float: none !important;
+}
+td {
+    vertical-align: middle !important;
+}
+
+.order_header {
+    text-align: left;
+    margin-bottom: 15px;
+    background: #3cc0a6;
+    color: #ffffff !important;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-bottom: 1px solid #ddd;
+    border-top: none !important;
+}
+
+
+
+@media only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1090px)  {
+
+    /* Force table to not be like tables anymore */
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+    
+    /* Hide table headers (but not display: none;, for accessibility) */
+    thead tr { 
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    tbody tr:nth-child(1) { 
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+    .img-wrap {
+        float: none;
+        padding-right: 24px;
+    }
+    
+    
+}

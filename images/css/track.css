@@ -1,0 +1,22 @@
+.order_id {
+  background: #824d9f;
+    color: #fff;
+    box-shadow: none;
+    border: 1px solid #824d9f;
+    padding: 8px 12px;
+    border-radius: 2px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+}
+.order_header {
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 12px 15px;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.pending {
+    color: #dc8600 !important;
+}
